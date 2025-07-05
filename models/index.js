@@ -34,7 +34,7 @@ db.User = require('./User')(sequelize);
 db.Product = require('./product')(sequelize);
 db.Order = require('./order')(sequelize);
 db.OrderItem = require('./orderItem')(sequelize);
-db.Transaction = require('./transaction')(sequelize);
+db.Transaction = require('./Transaction')(sequelize);
 db.Quote = require('./quote')(sequelize);
 
 // Définir les associations
