@@ -1,0 +1,34 @@
+# .gitignore
+
+# Dépendances Node
+node_modules/
+.DS_Store
+
+# Variables d'environnement
+.env
+
+# Fichiers de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds
+dist/
+build/
+
+# Fichiers générés (ex: PDF de factures temporaires)
+invoices/*.pdf
+
+# Fichiers d'IDE
+.vscode/
+.idea/
+
+# Fichiers de base de données (si locaux et non versionnés)
+*.sqlite
+*.database
+
+# Fichiers de cache
+.nyc_output/
+.cache/
+/tmp
