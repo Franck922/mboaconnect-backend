@@ -35,7 +35,7 @@ db.Product = require('./Product')(sequelize);
 db.Order = require('./Order')(sequelize);
 db.OrderItem = require('./OrderItem')(sequelize);
 db.Transaction = require('./Transaction')(sequelize);
-db.Quote = require('./quote')(sequelize);
+db.Quote = require('./Quote')(sequelize);
 
 // Définir les associations
 db.User.hasMany(db.Order, { foreignKey: 'userId', as: 'orders' });
