@@ -31,9 +31,9 @@ db.sequelize = sequelize;
 
 // Importez et initialisez tous les modèles en leur passant l'instance sequelize
 db.User = require('./user')(sequelize);
-db.Product = require('./product')(sequelize);
-db.Order = require('./order')(sequelize);
-db.OrderItem = require('./orderItem')(sequelize);
+db.Product = require('./Product')(sequelize);
+db.Order = require('./Order')(sequelize);
+db.OrderItem = require('./OrderItem')(sequelize);
 db.Transaction = require('./Transaction')(sequelize);
 db.Quote = require('./quote')(sequelize);
 
